@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+
+body {
+  background-color: #08535d;
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* form styles */
+form {
+  background-color: #02333c;
+  box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.4);
+  padding: 2.5rem 2.5rem;
+  border-radius: 10px;
+  width: 550px;
+  margin: 20px auto 20px auto;
+  display: block;
+  padding-bottom: 10px;
+  border: none;
+  color: #faeee7;
+}
+/* label styles */
+label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+/* input and textarea styles */
+
+input,
+textarea {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #99bcc4;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 600px;
+  border: none;
+  outline: none;
+}
+
+input,
+textarea:after {
+  color: #02333c;
+}
+
+/* button styles */
+.btn {
+  text-align: center;
+  margin: 20px;
+}
+button {
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  color: #faeee7;
+  border: none;
+  background-color: #08535d;
+  cursor: pointer;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #02333c;
+}
